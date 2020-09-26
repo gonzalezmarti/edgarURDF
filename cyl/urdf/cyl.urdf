@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="cyl">
+  <link
+    name="cyl">
+    <inertial>
+      <origin
+        xyz="0 -1.11837503467721E-18 -0.0127"
+        rpy="0 0 0" />
+      <mass
+        value="0.051481" />
+      <inertia
+        ixx="1.1071E-05"
+        ixy="-6.3424E-38"
+        ixz="-3.2092E-38"
+        iyy="1.1071E-05"
+        iyz="3.38971038738034E-22"
+        izz="1.6607E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cyl/meshes/cyl.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://cyl/textures/" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cyl/meshes/cyl.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
