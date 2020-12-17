@@ -1,0 +1,157 @@
+<sdf version='1.6'>
+  <model name='robosimian'>
+    <link name='base_link'>
+      <pose frame=''>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose frame=''>-0.00082 -0.00206 -0.0218 3.14159 -0 0</pose>
+        <mass>40</mass>
+        <inertia>
+          <ixx>0.24897</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.70323</iyy>
+          <iyz>0.00182</iyz>
+          <izz>0.77256</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_link_collision'>
+        <pose frame=''>0 0 0 3.14159 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.257 0.5 0.238</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_1'>
+        <pose frame=''>0 0 0 3.14159 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.93 0.23 0.238</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_2'>
+        <pose frame=''>0.25393 0.075769 0 3.14159 -0 -0.38153</pose>
+        <geometry>
+          <box>
+            <size>0.36257 0.23 0.238</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_3'>
+        <pose frame=''>-0.25393 0.075769 0 3.14159 -0 0.38153</pose>
+        <geometry>
+          <box>
+            <size>0.36257 0.23 0.238</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_4'>
+        <pose frame=''>0.25393 -0.075769 0 3.14159 -0 0.38153</pose>
+        <geometry>
+          <box>
+            <size>0.36257 0.23 0.238</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_5'>
+        <pose frame=''>-0.25393 -0.075769 0 3.14159 -0 -0.38153</pose>
+        <geometry>
+          <box>
+            <size>0.36257 0.23 0.238</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='base_link_collision_6'>
+        <pose frame=''>0.41705 0 -0.15864 3.14159 -0.383972 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.144</length>
+            <radius>0.05</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__limb1_link0_collision_7'>
+        <pose frame=''>0.29326 -0.2094 -0.0115 3.1415 -0 -3.13159</pose>
+        <geometry>
+          <cylinder>
+            <length>0.145</length>
+            <radius>0.05</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__limb2_link0_collision_8'>
+        <pose frame=''>-0.29326 -0.2094 -0.0115 3.1415 -0 -3.13159</pose>
+        <geometry>
+          <cylinder>
+            <length>0.145</length>
+            <radius>0.05</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__limb3_link0_collision_9'>
+        <pose frame=''>-0.29326 0.2094 -0.0115 3.1415 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.145</length>
+            <radius>0.05</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__limb4_link0_collision_10'>
+        <pose frame=''>0.29326 0.2094 -0.0115 3.1415 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.145</length>
+            <radius>0.05</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='base_link_visual'>
+        <pose frame=''>0 0 0 3.14159 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>stl_0_3/robosim_chassis.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__limb1_link0_visual_1'>
+        <pose frame=''>0.29326 -0.2094 -0.0365 3.14159 1.57079 0.009997</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>stl_0_3/robosim_fts.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__limb2_link0_visual_2'>
+        <pose frame=''>-0.29326 -0.2094 -0.0365 3.14159 1.57079 0.009997</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>stl_0_3/robosim_fts.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__limb3_link0_visual_3'>
+        <pose frame=''>-0.29326 0.2094 -0.0365 3.14159 1.57079 3.14159</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>stl_0_3/robosim_fts.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__limb4_link0_visual_4'>
+        <pose frame=''>0.29326 0.2094 -0.0365 3.14159 1.57079 3.14159</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>stl_0_3/robosim_fts.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
